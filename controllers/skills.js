@@ -1,4 +1,4 @@
-var Skill = require('..models/skill');
+var Skill = require('../models/skill');
 
 module.exports = {
     index, 
@@ -30,9 +30,9 @@ function create(req, res){
     Skill.create(req.body);
     res.redirect('/skills')
 };
-function deleteSkill(req, res){
+function deleteSkill(req, res) {
     Skill.deleteOne(req.params.id);
-    res.redirect('/skills')
+    res.redirect('/skills');
 };
 function edit(req, res){
     const skill = Skill.getOne(req.params.id);

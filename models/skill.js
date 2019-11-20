@@ -1,15 +1,15 @@
 //skill array
 const skills = [
-    {skill:HTML, done: true},
-    {skill:CSS, done: true},
-    {skill:JavaScript, done: true},
-    {skill:NodeJS, done: true},
-    {skill:MongoDB, done: true},
-    {skill:Python, done: false},
-    {skill:React, done: false},
-    {skill:Ruby, done: false},
-    {skill:RubyonRails, done: false},
-    {skill:Java, done: false},
+    {skill:'HTML', done: true},
+    {skill:'CSS', done: true},
+    {skill:'JavaScript', done: true},
+    {skill:'NodeJS', done: true},
+    {skill:'MongoDB', done: true},
+    {skill:'Python', done: false},
+    {skill:'React', done: false},
+    {skill:'Ruby', done: false},
+    {skill:'RubyonRails', done: false},
+    {skill:'Java', done: false},
 ];
 
 //export 
