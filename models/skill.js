@@ -13,7 +13,7 @@ const skills = [
 ];
 
 //export 
-module.export = {
+module.exports = {
     getAll,
     getOne,
     create,
@@ -30,7 +30,7 @@ function getOne(id){
 function create(skill){
     skills.push(skill);
 };
-function update(id, skill){
+function update(id, skill) {
     skills.splice(id, 1, skill);
 };
 function deleteOne(id){

@@ -41,7 +41,7 @@ function edit(req, res){
         idx: req.params.id,
     });
 };
-function update(req, res){
+function update(req, res) {
     req.body.done = req.body.done === 'on';
     Skill.update(req.params.id, req.body);
     res.redirect(`/skills/${req.params.id}`);
